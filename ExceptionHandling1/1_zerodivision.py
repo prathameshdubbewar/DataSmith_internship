@@ -8,4 +8,4 @@ try:
     print("Result:", result)
     
 except ZeroDivisionError:
-        print("Error: Division by zero.Enter a non-zero second number.")
+        print("Error: Enter a non-zero second number.")
