@@ -11,3 +11,4 @@ user_input = input("Enter a input to convert: ")
 result = sqr_of_int(user_input)
 if result is not None:
     print("Integer value:", result)
+
