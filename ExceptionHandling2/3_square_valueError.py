@@ -6,6 +6,7 @@ def sqr_of_int(input_str):
     except ValueError:
         print("Error: cannot convert string to int.")
         return None
+        
 
 user_input = input("Enter a input to convert: ")
 result = sqr_of_int(user_input)
