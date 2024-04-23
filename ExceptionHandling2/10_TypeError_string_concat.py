@@ -6,7 +6,11 @@ def concat_strings(string_list):
         print("Error: Non-string element encountered in the list.")
         return None
 
-input_list = ['hello', 'world', '!']  
-result = concat_strings(input_list)
+# input_list = ['hello', 'world', '!']  
+input_list = input("enter all the inputs: ")
+new_list = input_list.split()
+print(input_list)
+
+result = concat_strings(new_list)
 if result is not None:
     print("Concatenated string:", result)
