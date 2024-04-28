@@ -7,11 +7,11 @@ def calc_product(numbers):
 try:
     input_string = input("Enter a list of integers: ")
 
-    numbers = [int(num) for num in input_string.split(',')]
+    numbers = [int(num) for num in input_string.split('')]
 
     product = calc_product(numbers)
 
-    print("Product of the numbers:", product)
+    print("Product of  numbers is :", product)
 
 except ValueError:
     print("Error: Input is not int")
