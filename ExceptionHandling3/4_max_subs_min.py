@@ -14,5 +14,5 @@ user_input = input("enter the numbers: ")
 input_lst  = [int(num) for num in user_input.split()]
 result = max_min_diff(input_lst)
 if result is not None:
-    print("Difference between max and min is : ", result)
+    print("Diff between max and min is : ", result)
 
