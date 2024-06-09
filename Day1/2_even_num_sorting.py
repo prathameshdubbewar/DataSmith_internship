@@ -19,5 +19,3 @@ for i in numbers_input.split():
 output = sort(lst)
 
 print(output)
-
-

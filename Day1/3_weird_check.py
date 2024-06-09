@@ -1,4 +1,3 @@
-
 def checking(n):
     if n%2 == 0:
         if n in range(2, 6):
